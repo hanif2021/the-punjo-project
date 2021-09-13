@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+li{
+    list-style: none;
+}
+.btn-sidebar{
+    z-index: 99999999999999999999 !important;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    background: #1e1e1e;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: 0.4s ease-in-out;
+}
+.btn-sidebar.click{
+    right: 20px;
+}
+.btn-sidebar span{
+    color: #fff;
+    font-size:28px;
+    line-height: 40px;
+}
+.btn-sidebar.click span::before{
+    content: '\f00d';
+}
+.side-bar{
+    position: fixed;
+    width: 250px;
+    height: 100%;
+    left: -250px;
+    background: #1b1b1b;
+    height: 100%;
+    color: #fff;
+    transition: left 0.4s ease;
+    z-index: 999999999 !important;
+}
+.side-bar.show{
+    left: 0px;
+}
+.side-bar ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.side-bar .text{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 65px;
+    text-align: center;
+    background: #1e1e1e;
+    letter-spacing: 1px;
+}
+.mobile-nav nav ul{
+    background: #1b1b1b;
+    height: 100%;
+    width: 100%;
+}
+.mobile-nav nav ul li{
+    line-height: 60px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+.mobile-nav nav ul li:last-child{
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+.mobile-nav nav ul li a{
+    font-size: 18px;
+    padding-left: 40px;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    border-left: 3px solid transparent;
+    position: relative;
+}
+.mobile-nav nav ul li.active a{
+    color: cyan;
+    background: #1e1e1e;
+    border-left-color: cyan;
+}
+.mobile-nav nav ul ul{
+    position: static;
+    display: none;
+}
+.mobile-nav nav ul .serv-show.show{
+    display: block;
+}
+.mobile-nav nav ul .cont-show.show1{
+    display: block;
+}
+.mobile-nav nav ul ul .fus-show.show2{
+    display: block;
+}
+.mobile-nav nav ul ul li{
+    line-height: 42px;
+    border-bottom: none;
+}
+.mobile-nav nav ul ul li a{
+    font-size: 14px;
+    color: #e6e6e6;
+    padding-left: 80px;
+}
+.mobile-nav nav ul ul ul{
+    position: static;
+}
+.mobile-nav nav ul ul ul li{
+    line-height: 42px;
+}
+.mobile-nav nav ul ul ul li a{
+    font-size: 12px;
+    color: #e6e6e6;
+    padding-left: 120px;
+    position: relative;
+}
+.mobile-nav nav ul li.active ul li  a{
+    color: #e6e6e6 ;
+    background: #1e1e1e;
+    border-left-color: transparent ;
+}
+.mobile-nav nav ul ul li.active a{
+    color: cyan !important;
+    background: #1e1e1e;
+    border-left-color: cyan !important;
+}
+.mobile-nav nav ul ul li a:hover{
+    color: cyan  !important;
+    background: #1e1e1e !important ;
+}
+.mobile-nav nav ul ul li.active ul li a{
+    color: #e6e6e6 !important;
+    background: #1e1e1e;
+    border-left-color: transparent !important;
+}
+.mobile-nav nav ul ul ul li a:hover{
+    color: cyan  !important;
+    background: #1e1e1e !important ;
+}
+.mobile-nav nav ul li a span{
+    position: absolute;
+    top: 50%;
+    right: 70px;
+    transform: translateY(-50%);
+    font-size: 22px;
+    transition: transform 0.4s;
+}
+.mobile-nav nav ul li a span.rotate{
+    transform: translateY(-50%) rotate(180deg);
+}
+.serv-show li .socund{
+
+position: absolute;
+
+right: 100px;
+}

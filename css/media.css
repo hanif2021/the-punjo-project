@@ -1,0 +1,122 @@
+@media (min-width:0px) and (max-width:2560px){
+    .about-img img {
+        position: absolute;
+        top: 60%;
+        width: 35%;
+        transform: translateY(-50%);
+    }
+}
+@media (min-width:0px) and (max-width:1400px){
+    .about-img img {
+        position: absolute;
+        top: 60%;
+        width: 45%;
+        transform: translateY(-50%);
+    }
+}
+@media (min-width:0px) and (max-width:1199px){
+    .service-box h1 {
+        font-size: 18px;
+    }
+    .img-story {
+        display: none;
+    }
+    .text-story {
+        width: 100%;
+        margin-left: 10px;
+        padding: 15px 0;
+    }
+}
+@media (min-width:0px) and (max-width:991px){
+    .navbar-light .navbar-brand {
+        color: rgba(0,0,0,.9);
+        padding: 25px 0 !important;
+    }
+    .story-text-img {
+        margin-bottom: 20px;
+    }
+    .center-heading h1 {
+        font-size: 30px;
+    }
+    .center-heading span{
+        width: 340px;
+    }
+    .about-img img {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 50%;
+    }
+    .about-text{
+        
+    margin-top: 400px;
+    }
+    }
+@media (min-width:0px) and (max-width:767px){
+    .work {
+        text-align: center;
+    }
+    .life-change-img{
+        margin-bottom: 40px;
+    }
+    }
+@media (min-width:0px) and (max-width:575px){
+    .header-form-movile {
+        width: 35%;
+    }
+    .client-box {
+        margin-bottom: 30px;
+    }
+    .about-img img {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 65%;
+    }
+    .banner-text {
+        text-align: center;
+    }
+    }
+@media (min-width:0px) and (max-width:425px){
+    .about-img img {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 85%;
+    }
+    .header-form-movile {
+        width: 45%;
+    }
+    .progress{
+        width: 74%;
+      }
+}
+@media (min-width:0px) and (max-width:375px){
+    .get-btn {
+        padding: 5px 28px;
+        margin: 0 5px;
+        margin-bottom: 10px;
+    }
+    .banner-text h1 {
+        font-size: 32px;
+    }
+}
+@media (min-width:0px) and (max-width:374px){
+    .work-all-btn ul li button {
+        padding: 5px 10px;
+        font-size: 14px;
+    }
+    .center-heading span {
+        width: 250px;
+    }
+    .follow-icon ul li a i {
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (min-width:0px) and (max-width:320px){
+        
+}
